@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #33fe99;
+  --primary-color-rgb: 52, 254, 153;
+  --primary-color-hover: #21da7e;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "proxima-nova";
+  color: #131c24;
+}
+
+a {
+  color: #131c24;
+}
+
+button {
+  cursor: pointer;
+}

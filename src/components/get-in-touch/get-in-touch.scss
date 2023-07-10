@@ -1,0 +1,112 @@
+.get-in-touch {
+  margin-top: 106px;
+  margin-bottom: 346px;
+  padding-inline: 219px 102px;
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    margin-bottom: 128px;
+    padding-top: 2rem;
+    padding-inline: 0;
+    flex-direction: column;
+  }
+  &__container {
+    height: 302px;
+    background-color: #131c24;
+    border-radius: 5px;
+    padding-top: 62px;
+    padding-left: 97px;
+    display: flex;
+    @media screen and (max-width: 768px) {
+      padding: 38px 18px;
+      height: auto;
+      flex-direction: column;
+    }
+  }
+  &__title {
+    line-height: 67px;
+    margin-bottom: 35px;
+    font-size: 56px;
+    color: white;
+    font-weight: 500;
+    @media screen and (max-width: 768px) {
+      font-size: 23px;
+      line-height: 28px;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    span {
+      color: var(--primary-color);
+    }
+  }
+  &__call-now {
+    font-size: 44px;
+    color: white;
+    font-weight: 800;
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    a {
+      color: white;
+      padding-left: 12px;
+      font-weight: 500;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .request-call-back {
+    margin-top: -120px;
+    width: 825px;
+    border-radius: 5px;
+    @media screen and (max-width: 768px) {
+      margin-block: 0px;
+    }
+  }
+}
+
+.get-in-touch-form {
+  display: flex;
+  align-items: center;
+  margin-left: 183px;
+  gap: 162px;
+  @media screen and (max-width: 768px) {
+    margin-left: 0;
+  }
+}
+
+.get-in-touch-button {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 250px;
+  gap: 162px;
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    justify-content: center;
+    margin-left: 0;
+    gap: 46px;
+  }
+  button {
+    font-size: 18px;
+    color: white;
+    border: 2px solid white;
+    background-color: #131c24;
+    border-radius: 3px;
+    width: 278px;
+    padding-block: 12px;
+    font-weight: bold;
+    transition: all ease-in-out 0.3s;
+    @media screen and (max-width: 768px) {
+      font-size: 11px;
+      width: 120px;
+      padding-block: 6px;
+    }
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+}

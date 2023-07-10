@@ -1,0 +1,140 @@
+.tech-supported {
+  margin-top: 274px;
+  padding-left: 127px;
+  padding-top: 84px;
+  background-color: #f9f9fa;
+  display: flex;
+  position: relative;
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    padding-top: 2rem;
+    padding-left: 0;
+    flex-direction: column-reverse;
+  }
+  &::before {
+    content: "";
+    width: 1104px;
+    left: 0px;
+    height: 11px;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: -7px;
+    border-radius: 5px;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+  &__container {
+    flex: 1 1;
+  }
+  &__title {
+    font-size: 64px;
+    line-height: 90px;
+    font-weight: bold;
+    @media screen and (max-width: 768px) {
+      margin-top: 16px;
+      margin-bottom: 48px;
+      font-size: 28px;
+      line-height: 34px;
+      text-align: center;
+    }
+    span {
+      color: var(--primary-color);
+    }
+  }
+  &__description {
+    margin-top: 46px;
+    font-size: 32px;
+    font-weight: 500;
+    position: relative;
+    width: max-content;
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      margin-top: 24px;
+      margin-inline: auto;
+    }
+    &::after {
+      content: "";
+      width: 100%;
+      left: 2px;
+      height: 3px;
+      background-color: var(--primary-color);
+      position: absolute;
+      bottom: -23px;
+      @media screen and (max-width: 768px) {
+        bottom: -4px;
+      }
+    }
+  }
+  &__image {
+    margin-block: 12px;
+    margin-inline: 20px;
+    width: 930px;
+    height: 740px;
+    max-width: 100%;
+    @media screen and (max-width: 768px) {
+      height: auto;
+      display: flex;
+      justify-content: center;
+      margin-block: 0;
+      margin-inline: 0;
+    }
+    img {
+      width: 100%;
+      @media screen and (max-width: 768px) {
+        width: 95%;
+      }
+    }
+  }
+  &__logos {
+    margin-top: 56px;
+    padding-right: 56px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+    grid-template-rows: auto auto; /* 2 rows with automatic height */
+    grid-gap: 40px;
+    @media screen and (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+      padding-inline: 3rem;
+    }
+  }
+  &__logos-container {
+    flex: 1 1 60px;
+    height: 50px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__buttons {
+    display: flex;
+    margin-left: -6px;
+    gap: 65px;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 42px;
+    }
+    button {
+      background-color: var(--primary-color);
+      border: none;
+      color: white;
+      height: 48px;
+      width: 280px;
+      font-size: 18px;
+      border-radius: 3px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: all ease-in-out 0.3s;
+      @media screen and (max-width: 768px) {
+        height: 64px;
+        font-size: 16px;
+      }
+      &:hover {
+        background-color: var(--primary-color-hover);
+      }
+    }
+  }
+}

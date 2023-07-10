@@ -1,1 +1,1 @@
-# homepage-template
+# company-homepage-template

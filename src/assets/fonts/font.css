@@ -1,0 +1,115 @@
+/* thin */
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Thin.otf");
+	src: url("./Mark Simonson - Proxima Nova Thin.otf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+}
+/* thin Italic*/
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Thin Italic.otf");
+	src: url("./Mark Simonson - Proxima Nova Thin Italic.otf") format("truetype");
+	font-weight: 100;
+	font-style: italic;
+}
+
+/* light */
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Light.otf");
+	src: url("./Mark Simonson - Proxima Nova Light.otf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+/* light Italic*/
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Light Italic.otf");
+	src: url("./Mark Simonson - Proxima Nova Light Italic.otf") format("truetype");
+	font-weight: 300;
+	font-style: italic;
+}
+
+/* regular */
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Regular.otf");
+	src: url("./Mark Simonson - Proxima Nova Regular.otf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+/* regular Italic */
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Regular Italic.otf");
+	src: url("./Mark Simonson - Proxima Nova Regular Italic.otf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* Medium */
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Medium.otf");
+	src: url("./Mark Simonson - Proxima Nova Medium.otf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+/* semi-bold */
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Semibold.otf");
+	src: url("./Mark Simonson - Proxima Nova Semibold.otf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+/* semi-bold italic*/
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Semibold Italic.otf");
+	src: url("./Mark Simonson - Proxima Nova Semibold Italic.otf") format("truetype");
+	font-weight: 600;
+	font-style: italic;
+}
+/* bold */
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Bold.otf");
+	src: url("./Mark Simonson - Proxima Nova Bold.otf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+/* bold Italic*/
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Bold Italic.otf");
+	src: url("./Mark Simonson - Proxima Nova Bold Italic.otf") format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+/* Xtra bold */
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Extrabold.otf");
+	src: url("./Mark Simonson - Proxima Nova Extrabold.otf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}
+/* Xtra bold Italic*/
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Extrabold.otf");
+	src: url("./Mark Simonson - Proxima Nova Extrabold.otf") format("truetype");
+	font-weight: 800;
+	font-style: italic;
+}
+/* Black */
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./Mark Simonson - Proxima Nova Black.otf");
+	src: url("./Mark Simonson - Proxima Nova Black.otf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+}
